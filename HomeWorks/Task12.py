@@ -9,3 +9,11 @@ for x in range(s):
     for y in range(p):
         if s == x + y and p == x * y:
             print(x, y)
+
+
+# s = int(input("Введите сумму чисел S: "))
+# p = int(input("Введите произведение чисел P: "))
+# d = s*s-4*(p)
+# x1 = int((s+pow(d, 0.5))/2)
+# x2 = int((s-pow(d, 0.5))/2)
+# print(f'{s} {p} --> {x1} {x2}')
