@@ -18,3 +18,15 @@
 #  print(‘fail’)
 # Вывод:
 # ok
+
+#def transformation(x): return x*2
+
+transformation = lambda x: x
+values = [1, 23, 42, 'asdfg']
+transformed_values = list(map(transformation, values))
+if values == transformed_values:
+    print('ok')
+else:
+    print('fail')
+
+print(transformed_values)
